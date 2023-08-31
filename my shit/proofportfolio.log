@@ -1,0 +1,10 @@
+This is mikTeX, Version 3.141592653 (MiKTeX 22.7) (preloaded format=tex 2023.8.30)  30 AUG 2023 13:23
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**proofportfolio.tex
+(proofportfolio.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [12pt]{article}
+? exit
+No pages of output.
