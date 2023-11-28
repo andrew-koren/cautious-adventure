@@ -1,0 +1,137 @@
+% Document class and font size
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+\usepackage{lipsum}  
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+%Old header
+%% Header
+%\begin{center}
+%\textbf{\Large ANDREW KOREN}\\[2pt] % Name
+%East Lansing, MI | \href{mailto:korenand@msu.edu}{korenand@msu.edu} | (847) 778-2986 | \href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/johndoe} %| %Country Citizen % Contact info
+%\end{center}
+%------------------------------------------------------------
+%Insert header from other doc
+%------------------------------------------------------------
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Andrew Koren}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Physics Undergraduate} % Career or current job title
+
+        \vspace{3pt}
+
+        {\Large Michigan State University}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	%\icon{Globe}{11}{\href{http://www.google.com}{portafolio.com}}\\ 
+    \icon{Phone}{11}{(847) 778 2986}\\
+    \icon{MapMarker}{11}{East Lansing, Michigan}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:korenand@msu.edu}{korenand@msu.edu}}\\	
+    %\icon{Github}{11}{\href{https://github.com/uma-dev}{github.com/uma-dev}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{/in/andrewkorenphysics}}\\    
+    
+\end{minipage}
+%------------------------------------------------------------
+%Insert header from other doc
+%------------------------------------------------------------
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Michigan State University}, East Lansing, MI \hfill Enrolled: August 2022 | Expected: May 2026\\ % University name and location
+B.S. in Physics, Honors College \hfill Overall GPA: 3.95 | Major GPA 4.00\\ % Degree and GPA
+%Threads: Example and Example \hfill Credit standing: Honors % Additional info
+
+\textbf{Grayslake Central High School}, Grayslake, IL \hfill May 2022\\ 
+Graduated with Summa Cum Laude \hfill Overall GPA: 4.25
+
+\section*{RELATED COURSEWORK}
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{Facility for Rare Isotope Beams} \hfill East Lansing, Michigan\\ % Company name and location
+\textit{Student Research Assistant} \hfill March 2023 - Present % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Job responsibilities and achievements
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Project or Volunteer Work Name} \hfill City, State\\ % Project or organization name and location
+\textit{Position Title, Volunteer} \hfill Month Year – Month Year % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+\end{itemize}
+
+% Club or Organization Experience
+\textbf{Club or Organization Name} \hfill City, State\\ % Club or organization name and location
+\textit{Position Title} \hfill Month Year – Ongoing % Position and duration
+\begin{itemize}
+    \item Description of responsibilities and achievements at this position. % Responsibilities and achievements
+\end{itemize}
+
+
+\section*{EXTRACURRICULAR}
+
+
+
+%% Projects Section
+%\section*{PROJECTS}
+%\noindent
+%\textbf{Project Name} \hfill City, State\\ % Project name and location
+%\textit{Project Link:} \url{https://github.com/username/projectname} \hfill Month Year - Status % Project link and duration
+%\begin{itemize}
+%    \item Description of the project and your contributions. % Project description and contributions
+%\end{itemize}
+%
+%% Additional Project
+%\noindent
+%\textbf{Project Name} \hfill City, State\\ % Project name and location
+%\textit{Project Link:} \url{https://www.projectwebsite.com/} \hfill Month Year % Project link and duration
+%\begin{itemize}
+%    \item Description of the project and your contributions. % Project description and contributions
+%\end{itemize}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Relevant Coursework:} List of relevant courses you have taken. % Relevant coursework
+    \item \textbf{Programming:} List of programming languages you are proficient in. % Programming skills
+    \item \textbf{Software:} List of software you are proficient in. % Software skills
+    \item \textbf{Communication:} List of communication skills you possess. % Communication skills
+\end{itemize}
+
+% End document
+\end{document}
