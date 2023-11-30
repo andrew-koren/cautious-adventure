@@ -1,8 +1,8 @@
-PWD c:/Users/andre/Downloads/Coles Resume Template!
+PWD c:/Users/andre/the actual coding folder/cautious-adventure/file dump/Coles Resume Template!
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/andre/Downloads/Coles Resume Template!/main.tex
+INPUT c:/Users/andre/the actual coding folder/cautious-adventure/file dump/Coles Resume Template!/main.tex
 OUTPUT main.log
 INPUT ./developercv.cls
 INPUT developercv.cls
