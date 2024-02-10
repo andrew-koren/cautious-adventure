@@ -1,3 +1,6 @@
 [submodule "my stuff/SS24/Classical PHY 321/phy321msu"]
 	path = my stuff/SS24/Classical PHY 321/phy321msu
 	url = https://github.com/Amplewarrior/phy321msu.git
+[submodule "my stuff/SS24/QIS/day 1/Modified_VHA"]
+	path = my stuff/SS24/QIS/day 1/Modified_VHA
+	url = https://github.com/Amplewarrior/Modified_VHA.git
