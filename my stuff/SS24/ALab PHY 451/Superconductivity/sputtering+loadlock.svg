@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240mm"
+   height="144.97812mm"
+   viewBox="0 0 240 144.97812"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="sputtering+loadlock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4709404"
+     inkscape:cx="452.43167"
+     inkscape:cy="277.7135"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g14"
+     inkscape:export-bgcolor="#8f8f8fff"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker43"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path43" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWideRounded-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide, rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.873586,-10.552442)">
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="95.559845"
+       height="84.474907"
+       x="54.277992"
+       y="42.237453" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.677191;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-8"
+       width="63.641434"
+       height="51.284599"
+       x="198.83644"
+       y="54.062729" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2"
+       width="9.1737452"
+       height="6.1158299"
+       x="50.455597"
+       y="46.824326" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.784843;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="1.8091177"
+       height="22.258924"
+       x="71.72094"
+       y="116.63406" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="9.1737452"
+       height="9.5559845"
+       x="58.291504"
+       y="123.2722" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect16"
+       width="56.57143"
+       height="27.330116"
+       x="141.81081"
+       y="67.465248" />
+    <ellipse
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path16"
+       cx="81.608109"
+       cy="70.809845"
+       rx="12.42278"
+       ry="3.7268338" />
+    <path
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.832512;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 74.650928,71.775266 5.019713,-3.93067 -26.42873,-4.240439 -6.157812,3.6873 z"
+       id="path17" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect18"
+       width="36.886101"
+       height="24.081079"
+       x="49.69112"
+       y="130.91698" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect19"
+       width="34.210423"
+       height="19.685328"
+       x="94.413124"
+       y="118.30309" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect22"
+       width="30.196911"
+       height="4.2046332"
+       x="41.855213"
+       y="47.971043" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect23"
+       width="7.0714288"
+       height="14.525096"
+       x="59.438225"
+       y="118.30309" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect24"
+       width="0.19111969"
+       height="23.889961"
+       x="72.625481"
+       y="111.80502" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect25"
+       width="66.127411"
+       height="25.227798"
+       x="137.60619"
+       y="68.420845" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10"
+       width="24.674828"
+       height="30.77994"
+       x="163.27412"
+       y="49.238564" />
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;fill-opacity:1;stroke-opacity:1;stroke-dasharray:none"
+       id="ellipse10"
+       cx="175.41837"
+       cy="80.761238"
+       rx="12.337414"
+       ry="15.26278" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.37999;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect17"
+       width="187.21315"
+       height="3.1251678"
+       x="99.73085"
+       y="76.987602" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.935351;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect15"
+       width="20.197227"
+       height="31.491772"
+       x="100.96449"
+       y="120.37618" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect27"
+       width="4.4979167"
+       height="3.3072915"
+       x="127.13229"
+       y="54.768749" />
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect28"
+       width="9.6572914"
+       height="4.7624998"
+       x="72.098961"
+       y="67.73333" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;white-space:pre;inline-size:28.899;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="74.087112"
+       y="69.784073"
+       id="text29"><tspan
+         x="74.087112"
+         y="69.784073"
+         id="tspan6">Thickness </tspan><tspan
+         x="74.087112"
+         y="72.870873"
+         id="tspan7">Measurement</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="64.358505"
+       y="46.210899"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         style="stroke-width:0"
+         x="64.358505"
+         y="46.210899">ArO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan31">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="51.636471"
+       y="142.00029"
+       id="text32"><tspan
+         id="tspan32"
+         style="stroke-width:0"
+         x="51.636471"
+         y="142.00029"
+         sodipodi:role="line">Oil-Free Mechanical pump,</tspan><tspan
+         style="stroke-width:0"
+         x="51.636471"
+         y="145.0871"
+         id="tspan33"
+         sodipodi:role="line">Turbopump</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.045;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect35"
+       width="40.972416"
+       height="11.599498"
+       x="92.421806"
+       y="77.641792" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="99.942955"
+       y="74.381508"
+       id="text37"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         style="fill:#000000;stroke-width:0"
+         x="99.942955"
+         y="74.381508">Substrate with mask</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers fill stroke"
+       d="M 46.585078,49.578498 H 64.171414"
+       id="path37" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="75.770905"
+       y="120.85928"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan39"
+         style="stroke-width:0"
+         x="75.770905"
+         y="120.85928">Throttle</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="75.770905"
+         y="123.94608"
+         id="tspan40">valve</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="56.1908"
+       y="122.0405"
+       id="text41"><tspan
+         sodipodi:role="line"
+         id="tspan41"
+         style="stroke-width:0"
+         x="56.1908"
+         y="122.0405">Main valve</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 57.810399,127.59447 h 9.72861 v -0.37418"
+       id="path41" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker43);paint-order:markers fill stroke"
+       d="m 72.964579,114.49826 v 21.14102"
+       id="path42" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;white-space:pre;inline-size:16.4106;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="34.798492"
+       y="46.397987"
+       id="text44"
+       transform="translate(3.1750001)"><tspan
+         x="34.798492"
+         y="46.397987"
+         id="tspan8">From gas </tspan><tspan
+         x="34.798492"
+         y="49.484787"
+         id="tspan11">tanks</tspan></text>
+    <g
+       id="g13">
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect2-1"
+         width="9.1737452"
+         height="6.1158299"
+         x="47.593578"
+         y="-207.58112"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect22-1"
+         width="30.196911"
+         height="4.2046332"
+         x="38.993191"
+         y="-206.4344"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000300;stroke-width:0.351285;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         id="rect2-1-8"
+         width="0.89378011"
+         height="6.829545"
+         x="53.716034"
+         y="-207.79451"
+         transform="rotate(90)" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded-0);paint-order:markers fill stroke"
+         d="m 204.82695,43.723051 v 17.58633"
+         id="path37-0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="75.958"
+       y="134.32967"
+       id="text45"><tspan
+         sodipodi:role="line"
+         id="tspan45"
+         style="stroke-width:0"
+         x="75.958"
+         y="134.32967">ArO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan46">2</tspan></tspan></text>
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect18-1"
+       width="36.886101"
+       height="24.081079"
+       x="203.36691"
+       y="108.91894" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="205.31226"
+       y="120.00224"
+       id="text32-1"><tspan
+         id="tspan32-7"
+         style="stroke-width:0"
+         x="205.31226"
+         y="120.00224"
+         sodipodi:role="line">Roughing pump,</tspan><tspan
+         style="stroke-width:0"
+         x="205.31226"
+         y="123.08904"
+         id="tspan33-6"
+         sodipodi:role="line">Turbopump</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 211.48618,105.59644 h 9.72861 v -0.37418"
+       id="path41-9" />
+    <g
+       id="g14">
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4-7"
+         width="9.1737452"
+         height="9.5559845"
+         x="206.33104"
+         y="102.83739" />
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect23-5"
+         width="7.0714288"
+         height="14.525096"
+         x="207.47777"
+         y="97.868279" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         x="204.23035"
+         y="101.60568"
+         id="text41-5"><tspan
+           sodipodi:role="line"
+           id="tspan41-7"
+           style="stroke-width:0"
+           x="204.23035"
+           y="101.60568">Main valve</tspan></text>
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 205.84994,107.15965 h 9.72861 v -0.37418"
+         id="path41-7" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="100.87895"
+       y="55.827328"
+       id="text47"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         style="stroke-width:0"
+         x="100.87895"
+         y="55.827328">Sputtering Chamber</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="168.03069"
+       y="45.949093"
+       id="text47-4"><tspan
+         sodipodi:role="line"
+         id="tspan47-9"
+         style="stroke-width:0"
+         x="168.03069"
+         y="45.949093">Gate Valve</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linecap:butt;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 98.403133,86.279975 h 4.490137 v -6.361014 h 6.17394 -0.18709"
+       id="path48" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.515891;stroke-linecap:butt;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 127.21773,87.755062 0.007,-3.860681 -5.46931,-0.01003 0.01,-5.308438 -2.9e-4,0.160863"
+       id="path48-4" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linecap:butt;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path49"
+       cx="114.49827"
+       cy="84.096359"
+       rx="1.3096207"
+       ry="1.2160764"
+       inkscape:export-filename="path49.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="33.863049"
+       height="19.270132"
+       x="160.70917"
+       y="118.42712" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.52207,123.66561 h -6.73519 v 21.51519 h -37.41773 v -26.94077 h 0.56126"
+       id="path6" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.52207,123.66561 h -6.73519 v 21.51519 h -37.41773 v -26.94077 h 0.56126"
+       id="path7" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#0cb600;stroke-width:0;stroke-dasharray:none"
+       id="rect6"
+       width="17.212158"
+       height="4.4901276"
+       x="103.34804"
+       y="133.28261" />
+    <g
+       id="g9"
+       transform="translate(0,1.0583333)">
+      <ellipse
+         style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse7"
+         cx="113.02838"
+         cy="115.51865"
+         rx="29.336872"
+         ry="3.9179537" />
+      <rect
+         style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect7"
+         width="58.864864"
+         height="4.9691119"
+         x="83.710426"
+         y="111.04054" />
+      <ellipse
+         style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse8"
+         cx="112.94854"
+         cy="110.54837"
+         rx="29.336872"
+         ry="3.9179537" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.045;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 83.441545,110.19522 0.561266,6.36102"
+         id="path8" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.045;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         d="m 142.37448,110.19522 -0.74836,6.7352"
+         id="path9" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         x="97.099022"
+         y="111.60114"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="stroke-width:0"
+           x="97.099022"
+           y="111.60114">Nb, Al Sputtering Target</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="165.94763"
+       y="123.85269"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="fill:#000000;stroke-width:0"
+         x="165.94763"
+         y="123.85269">Chiller</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="103.27295"
+       y="136.57472"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;stroke-dasharray:none"
+         x="103.27295"
+         y="136.57472">Magnetron</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;stroke-dasharray:none"
+         x="103.27295"
+         y="140.54347"
+         id="tspan5">Device</tspan></text>
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.29768;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect25-9"
+       width="27.038214"
+       height="26.012629"
+       x="263.487"
+       y="66.12381" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="172.17619"
+       y="124.1458"
+       id="text37-1"><tspan
+         sodipodi:role="line"
+         id="tspan37-2"
+         style="fill:#000000;stroke-width:0"
+         x="172.17619"
+         y="124.1458">Chiller</tspan></text>
+    <ellipse
+       style="fill:#ffffff;stroke:#000000;stroke-width:3;fill-opacity:0;stroke-opacity:1;stroke-dasharray:none"
+       id="path10"
+       cx="175.41837"
+       cy="80.761238"
+       rx="12.337414"
+       ry="15.26278" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       x="165.62474"
+       y="40.314865"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:3"
+         x="165.62474"
+         y="40.314865" /></text>
+    <ellipse
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="path11"
+       cx="230.49156"
+       cy="79.489334"
+       rx="16.025919"
+       ry="15.51716" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="201.58452"
+       y="39.901894"
+       id="text30-1"><tspan
+         sodipodi:role="line"
+         id="tspan30-1"
+         style="stroke-width:0"
+         x="201.58452"
+         y="39.901894">N<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan13">2</tspan>O<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan31-2">2</tspan></tspan></text>
+  </g>
+</svg>

@@ -9,6 +9,9 @@
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="sputtering.svg"
+   inkscape:export-filename="sputtering.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,16 +26,17 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0401119"
-     inkscape:cx="315.8314"
-     inkscape:cy="386.97759"
+     inkscape:zoom="1.4709404"
+     inkscape:cx="228.08539"
+     inkscape:cy="321.90292"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     inkscape:export-bgcolor="#8f8f8fff" />
+     inkscape:export-bgcolor="#8f8f8fff"
+     showguides="true" />
   <defs
      id="defs1">
     <marker
@@ -104,16 +108,16 @@
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-dasharray:none;stroke-opacity:1"
        id="rect1"
        width="95.559845"
-       height="84.474907"
+       height="64.508934"
        x="54.277992"
-       y="42.237453" />
+       y="62.203423" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect2"
        width="9.1737452"
        height="6.1158299"
-       x="50.455597"
-       y="46.824326" />
+       x="48.297115"
+       y="97.548683" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.784843;stroke-dasharray:none;stroke-opacity:1"
        id="rect3"
@@ -132,25 +136,25 @@
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect16"
        width="56.57143"
-       height="27.330116"
+       height="21.574162"
        x="141.81081"
-       y="67.465248" />
+       y="73.221207" />
     <ellipse
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path16"
-       cx="81.608109"
-       cy="70.809845"
+       cx="79.629501"
+       cy="73.50795"
        rx="12.42278"
        ry="3.7268338" />
     <path
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.832512;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 74.650928,71.775266 5.019713,-3.93067 -26.42873,-4.240439 -6.157812,3.6873 z"
+       d="m 72.672318,74.47337 5.019713,-3.93067 -26.42873,-4.240439 -6.157812,3.6873 z"
        id="path17" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect18"
        width="36.886101"
-       height="24.081079"
+       height="18.504997"
        x="49.69112"
        y="130.91698" />
     <rect
@@ -165,8 +169,8 @@
        id="rect22"
        width="30.196911"
        height="4.2046332"
-       x="41.855213"
-       y="47.971043" />
+       x="39.696732"
+       y="98.695396" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect23"
@@ -184,10 +188,10 @@
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect25"
-       width="66.127411"
-       height="25.227798"
+       width="61.270824"
+       height="19.91461"
        x="137.60619"
-       y="68.420845" />
+       y="73.97554" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:1.065;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect17"
@@ -199,29 +203,23 @@
        style="fill:#fafafa;fill-opacity:1;stroke:#000300;stroke-width:0.935351;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect15"
        width="20.197227"
-       height="31.491772"
+       height="27.714426"
        x="100.96449"
        y="120.37618" />
-    <rect
-       style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect27"
-       width="4.4979167"
-       height="3.3072915"
-       x="127.13229"
-       y="54.768749" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect28"
        width="9.6572914"
        height="4.7624998"
-       x="72.098961"
-       y="67.73333" />
+       x="70.120354"
+       y="70.431435" />
     <text
        xml:space="preserve"
        style="font-size:2.46944px;white-space:pre;inline-size:28.899;display:inline;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="74.087112"
        y="69.784073"
-       id="text29"><tspan
+       id="text29"
+       transform="translate(-1.9786096,2.698104)"><tspan
          x="74.087112"
          y="69.784073"
          id="tspan1">Thickness </tspan><tspan
@@ -231,14 +229,14 @@
     <text
        xml:space="preserve"
        style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       x="64.358505"
-       y="46.210899"
+       x="62.200024"
+       y="96.935257"
        id="text30"><tspan
          sodipodi:role="line"
          id="tspan30"
          style="stroke-width:0"
-         x="64.358505"
-         y="46.210899">ArO<tspan
+         x="62.200024"
+         y="96.935257">ArO<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan31">2</tspan></tspan></text>
     <text
@@ -277,7 +275,7 @@
          y="74.381508">Substrate with mask</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWideRounded);paint-order:markers fill stroke"
-       d="M 46.585078,49.578498 H 64.171414"
+       d="M 44.426595,100.30285 H 62.012931"
        id="path37" />
     <text
        xml:space="preserve"
@@ -319,7 +317,8 @@
        style="font-size:2.46944px;white-space:pre;inline-size:16.4106;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="34.798492"
        y="46.397987"
-       id="text44"><tspan
+       id="text44"
+       transform="translate(1.0165169,50.724354)"><tspan
          x="34.798492"
          y="46.397987"
          id="tspan3">From gas </tspan><tspan
@@ -341,18 +340,19 @@
    id="tspan46">2</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       x="166.50891"
-       y="87.370407"
-       id="text47"><tspan
+       style="font-size:2.44136px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       x="164.61568"
+       y="89.949883"
+       id="text47"
+       transform="scale(1.0115009,0.98862984)"><tspan
          sodipodi:role="line"
          id="tspan47"
          style="stroke-width:0"
-         x="166.50891"
-         y="87.370407">To load-lock chamber</tspan></text>
+         x="164.61568"
+         y="89.949883">To load-lock chamber</tspan></text>
     <path
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle);paint-order:markers fill stroke"
-       d="m 176.23753,89.802559 h 9.54152"
+       d="m 176.23753,91.383254 h 9.54152"
        id="path47" />
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linecap:butt;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
@@ -451,21 +451,29 @@
          y="123.85269">Chiller</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;fill-rule:nonzero"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="103.27295"
        y="136.57472"
        id="text28"><tspan
          sodipodi:role="line"
          id="tspan28"
-         style="fill:#000000;stroke-width:0;fill-opacity:1;fill-rule:nonzero;stroke-dasharray:none"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;stroke-dasharray:none"
          x="103.27295"
-         y="136.57472">Magnetron</tspan></text>
+         y="136.57472">Magnetron</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;stroke-dasharray:none"
+         x="103.27295"
+         y="140.54347"
+         id="tspan5">Device</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.46944px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="172.17619"
        y="124.1458"
-       id="text37-1"><tspan
+       id="text37-1"
+       inkscape:export-filename="path49.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan37-2"
          style="fill:#000000;stroke-width:0"
