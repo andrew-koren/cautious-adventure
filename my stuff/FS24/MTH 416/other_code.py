@@ -2,6 +2,7 @@
 import networkx as nx
 import random
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 # HW1
@@ -110,3 +111,34 @@ def make_edges_from_code(code, num_layers):
     
     return connections, layers
 
+# HW3
+def make_huffman(weights):
+    assert sum(weights) == 1
+
+    huffman = np.zeros((len(weights),len(weights)))
+    huffman[0,:] = weights
+    path = []
+
+    for i, layer in enumerate(huffman):
+        if i+1 != len(huffman):
+            lcopy = np.copy(layer)
+            min1 = lcopy.argmin()
+            lcopy[min1] += 1
+            min2 = lcopy.argmin()
+
+            huffman[i+1] = layer
+            huffman[i+1, min1] = 10
+            huffman[i+1, min2] += layer.min()
+            path.append((min1, min2))
+    huffman[huffman==10] = 0
+
+    return huffman, path
+    
+def path_to_binary(path):
+    codewords = ['' for i in range(len(path)+1)]
+
+    for item in np.flipud(path):
+        codewords[item[0]] = codewords[item[1]] + '0'
+        codewords[item[1]] += '1'
+
+    return codewords
