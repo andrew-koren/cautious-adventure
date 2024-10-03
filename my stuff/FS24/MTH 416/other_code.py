@@ -134,11 +134,14 @@ def make_huffman(weights):
 
     return huffman, path
     
-def path_to_binary(path):
+def path_to_binary(path, p_dist=None):
     codewords = ['' for i in range(len(path)+1)]
 
     for item in np.flipud(path):
         codewords[item[0]] = codewords[item[1]] + '0'
         codewords[item[1]] += '1'
 
-    return codewords
+    if p_dist:
+        return np.stack([p_dist, codewords], axis=1)
+    else:
+        return codewords
