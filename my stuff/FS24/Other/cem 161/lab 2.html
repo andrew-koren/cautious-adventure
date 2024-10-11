@@ -7627,13 +7627,175 @@ $$</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">water_density</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c1">#g/ml</span>
+<span class="n">sodium_chloride_density</span> <span class="o">=</span> <span class="mf">2.17</span> <span class="c1">#g/ml</span>
+<span class="n">ethanol_density</span> <span class="o">=</span> <span class="mf">0.79</span> <span class="c1">#g/ml</span>
+
+<span class="n">sodium_g_mol</span> <span class="o">=</span> <span class="mi">58</span> <span class="c1">#g/mol</span>
+
+<span class="n">water_ethanol_50_50</span> <span class="o">=</span> <span class="mf">0.91</span>
+
+<span class="n">Water_4M_NaCl</span> <span class="o">=</span> <span class="p">(</span><span class="n">water_density</span><span class="o">*</span><span class="mi">1000</span><span class="o">+</span><span class="mi">4</span><span class="o">*</span><span class="n">sodium_g_mol</span><span class="p">)</span><span class="o">/</span><span class="mi">1000</span>
+
+<span class="n">solution</span> <span class="o">=</span> <span class="n">Water_4M_NaCl</span>
+
+<span class="n">water_solution_5_20</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">solution</span> <span class="o">+</span> <span class="mi">20</span> <span class="o">*</span> <span class="n">water_density</span><span class="p">)</span><span class="o">/</span><span class="mi">25</span>
+
+<span class="n">water_solution_10_15</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="o">*</span><span class="n">solution</span> <span class="o">+</span> <span class="mi">15</span><span class="o">*</span> <span class="n">water_density</span><span class="p">)</span><span class="o">/</span><span class="mi">25</span>
+
+<span class="n">water_solution_15_10</span> <span class="o">=</span> <span class="p">(</span><span class="mi">15</span><span class="o">*</span><span class="n">solution</span> <span class="o">+</span> <span class="mi">10</span><span class="o">*</span> <span class="n">water_density</span><span class="p">)</span><span class="o">/</span><span class="mi">25</span>
+
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Test num'</span><span class="p">,</span> <span class="s1">'solution'</span><span class="p">,</span> <span class="s1">'density (calculated)'</span><span class="p">,</span> <span class="s1">'p1'</span><span class="p">,</span> <span class="s1">'p2'</span><span class="p">,</span> <span class="s1">'p3'</span><span class="p">,</span> <span class="s1">'p4'</span><span class="p">,</span> <span class="s1">'p5'</span><span class="p">,</span> <span class="s1">'p6'</span><span class="p">])</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'1'</span><span class="p">,</span> <span class="s1">'Water'</span><span class="p">,</span> <span class="n">water_density</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'2'</span><span class="p">,</span> <span class="s1">'50/50 water/ethanol'</span><span class="p">,</span> <span class="n">water_ethanol_50_50</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'3'</span><span class="p">,</span> <span class="s1">'5:20 Solution:water'</span><span class="p">,</span> <span class="n">water_solution_5_20</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'4'</span><span class="p">,</span> <span class="s1">'10:15 Solution:water'</span><span class="p">,</span> <span class="n">water_solution_10_15</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'5'</span><span class="p">,</span> <span class="s1">'15:10 Solution:water'</span><span class="p">,</span> <span class="n">water_solution_15_10</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'float'</span><span class="p">,</span> <span class="s1">'sink'</span><span class="p">]</span>
+
+<span class="n">df</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[49]:</div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Test num</th>
+<th>solution</th>
+<th>density (calculated)</th>
+<th>p1</th>
+<th>p2</th>
+<th>p3</th>
+<th>p4</th>
+<th>p5</th>
+<th>p6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>1</td>
+<td>Water</td>
+<td>1.0000</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>float</td>
+<td>float</td>
+<td>sink</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2</td>
+<td>50/50 water/ethanol</td>
+<td>0.9100</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>float</td>
+<td>sink</td>
+</tr>
+<tr>
+<th>2</th>
+<td>3</td>
+<td>5:20 Solution:water</td>
+<td>1.0464</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>float</td>
+<td>float</td>
+<td>sink</td>
+</tr>
+<tr>
+<th>3</th>
+<td>4</td>
+<td>10:15 Solution:water</td>
+<td>1.0928</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>float</td>
+<td>float</td>
+<td>sink</td>
+</tr>
+<tr>
+<th>4</th>
+<td>5</td>
+<td>15:10 Solution:water</td>
+<td>1.1392</td>
+<td>sink</td>
+<td>sink</td>
+<td>sink</td>
+<td>float</td>
+<td>float</td>
+<td>sink</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">solution</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>1.232</pre>
+</div>
 </div>
 </div>
 </div>
