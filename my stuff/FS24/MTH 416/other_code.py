@@ -3,7 +3,7 @@ import networkx as nx
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-
+from math import log, log2, ceil
 
 # HW1
 def ceaser_cipher(decoded, k):
@@ -145,3 +145,38 @@ def path_to_binary(path, p_dist=None):
         return np.stack([p_dist, codewords], axis=1)
     else:
         return codewords
+    
+def get_entropy(probabilites, base):
+    entropy = sum([
+        p*log(1/p, base) for p in probabilites
+        ])
+    return entropy
+
+
+# HW4
+def arithmatic_code(ordered_prob):
+    '''
+    Definition 4.5.1
+    '''
+
+    acode = []
+    alpha = 0
+    for p in ordered_prob:
+        nprime = ceil(log2(1/p))
+        cprime = ceil(2**(nprime+1)*alpha)
+        codeword = bin(cprime)[2:]
+        adjusted_codeword = '0'*((nprime+1)-len(codeword)) + codeword
+
+        acode.append(adjusted_codeword)
+        alpha += p
+    return acode
+
+def rational_number(z):
+    '''
+    Definition 4.5.3: also 0*z
+    '''
+
+    zsum = 0
+    for i, z in enumerate(z):
+        zsum += int(z)/(2**(i+1))
+    return zsum
