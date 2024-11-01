@@ -180,3 +180,15 @@ def rational_number(z):
     for i, z in enumerate(z):
         zsum += int(z)/(2**(i+1))
     return zsum
+
+def find_hamming_distance(binary1, binary2):
+    return (binary1 ^ binary2).bit_count()
+
+
+def get_min_hdist(code):
+    min_dist = len(bin(code[0])) # =|B^n| + 2, larger than max distance 
+
+    for i, bin1 in enumerate(code):
+        for bin2 in code[i+1:]:
+            min_dist = min(min_dist, find_hamming_distance(bin1, bin2))
+    return min_dist
