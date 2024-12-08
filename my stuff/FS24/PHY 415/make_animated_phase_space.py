@@ -4,6 +4,7 @@ import numpy as np
 from numpy import cos, pi
 from scipy.integrate import solve_ivp
 
+print('wowza')
 fig = plt.figure()
 
 
@@ -43,8 +44,8 @@ grid_size = 20
 
 X, V, dX, dV = generate_phase_space(x_lim, v_lim, grid_size, parameters, 0)
 
-#field1 = plt.streamplot(X, V, dX, dV) #streamplot should have lower framerate, a bit overwhelming
-field1 = plt.quiver(X, V, dX, dV)
+field1 = plt.streamplot(X, V, dX, dV) #streamplot should have lower framerate, a bit overwhelming
+#field1 = plt.quiver(X, V, dX, dV)
 
 
 # creating the animation
@@ -61,7 +62,7 @@ dt = 0.1
 tspan = np.arange(0, end, dt)
 solution = solve_ivp(duffing, (0, end), initial_condition, t_eval = tspan, args=[parameters])
 
-with writer.saving(fig, 'duffing.gif', 100):
+with writer.saving(fig, 'duffing1.gif', 100):
     for i, tval in enumerate(tspan):
         
         X, V, dX, dV = generate_phase_space(x_lim, v_lim, grid_size, parameters, tval)
@@ -69,9 +70,9 @@ with writer.saving(fig, 'duffing.gif', 100):
         plt.xlabel('position')
         plt.ylabel('velocity')
 
-        #plt.streamplot(X, V, dX, dV, color='blue') # can use streamplot instead, but more complicated
-        field1.set_UVC(dX, dV) # change where arrows point
+        plt.streamplot(X, V, dX, dV, color='blue') # can use streamplot instead, but more complicated
+        #field1.set_UVC(dX, dV) # change where arrows point
 
         plt.plot(solution.y[0][:i+1], solution.y[1][:i+1], color='red') #draws 
         writer.grab_frame()
-        #plt.cla() # deletes old plots, use with plt.streamplot
+        plt.cla() # deletes old plots, use with plt.streamplot
