@@ -21,7 +21,7 @@ alpha = -1
 beta = 1
 delta = 1
 gamma = 5
-omega = 1.2
+omega = 1.2/3
 
 parameters = [alpha, beta, delta, gamma, omega]
 
@@ -56,13 +56,13 @@ writer = PillowWriter(fps=15, metadata=metadata) # can make fps based on dt to m
 data = []
 
 initial_condition = [1, 0]
-end = 20
-dt = 0.1
+end = 100
+dt = 0.2
 
 tspan = np.arange(0, end, dt)
 solution = solve_ivp(duffing, (0, end), initial_condition, t_eval = tspan, args=[parameters])
 
-with writer.saving(fig, 'duffing1.gif', 100):
+with writer.saving(fig, 'duffing2.gif', 100):
     for i, tval in enumerate(tspan):
         
         X, V, dX, dV = generate_phase_space(x_lim, v_lim, grid_size, parameters, tval)
