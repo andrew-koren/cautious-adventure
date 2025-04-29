@@ -26,13 +26,12 @@ class ParticleAnimator:
     def generate_frame_data(self, data, update_period=None, update_fps=None):
         """
         Given a list 'data' (each element holding frame input) and an update condition,
-        this function creates a dictionary mapping each simulation frame (0-indexed)
-        to the last update value.
+        this function creates a dictionary mapping each simulation frame (0-indexed). Will truncate extra data
         """
         if update_fps is not None:
-            update_interval = int(self.fps / update_fps)
+            update_interval = self.fps / update_fps
         elif update_period is not None:
-            update_interval = int(update_period / self.dt)
+            update_interval = update_period / self.dt
         else:
             update_interval = 1  # Update every frame
 
@@ -42,7 +41,7 @@ class ParticleAnimator:
         current_data = None
         update_index = 0
         for i in range(self.frames):
-            if i % update_interval == 0 and update_index < len(data):
+            if i % update_interval < 1 and update_index < len(data):
                 current_data = data[update_index]
                 update_index += 1
             frame_data[i] = current_data
